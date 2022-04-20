@@ -6,6 +6,7 @@ h1{
     color:grey;
     font-family:verdana}
 .maindiv {
+    display: table;
     background-color:white; 
     color:black; 
     width: 500px; 
@@ -17,13 +18,27 @@ h1{
 .childdiv {
     display: inline-block; 
     text-align: left; 
+    
 }
 .highlight {
     background-color: yellow;
   }
 footer{
     text-align: left;
+    padding: 10px;
 }
 #rate { 
     vertical-align: -7px;
 } 
+label{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+
+}
+input[type="range"] {
+    width: 100px;
+}
+button{
+    margin-top: 10px;
+}
